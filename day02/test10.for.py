@@ -13,7 +13,12 @@ print(kor_sum / len(std)) # list의 길이로 처리하면 소스를 다시 수�
 list_a = [[1, 3, 5], [2, 4, 8], [10, 15, 20]]
 
 for in_list in list_a:
-    print(in_list )
+    print(in_list)
+
+
+for in_list in list_a:
+    for item in in_list:
+        print(item)
 
 
 
