@@ -19,7 +19,7 @@ def divide(x, y) -> float:
 
 def say_hello() -> None:
     print('Hello')
-    #return
+    #return None은 생략
 
 
 say_hello()

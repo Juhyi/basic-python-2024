@@ -11,7 +11,7 @@ if temp_var.isnumeric() == True: # 숫자입력이 아니면 튕겨내기
     
     print(f'입력값 = {temp_var}')
     # 곱하기
-    result - temp_var * 5 
+    result = temp_var * 5 
     print(f'결과 = {result}')
 else:
     print('잘못된 입력! 정수만 입력하세요')
