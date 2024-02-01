@@ -64,6 +64,7 @@ print( 5 == 4 )  # False
      - 변수와 함수를 모두 모아둔 곳 : 클래스(class)
      - 클래스에서 하나씩 생성 : 객체(object)
      - 캡슐화(__plateNumber)
+- 가상환경    
 - 객체지향(나중에,,,,)
   - 오버로딩, 오버라이딩(재정의)
   - 상속, 다중상속
@@ -100,7 +101,9 @@ print( 5 == 4 )  # False
     f.write('text') #쓰기 
     f.close()  # 파일은 반드시 닫는다
   ```
-  - 가상환경
+ 
 - Python 활용
   - 주피터 노트북
      - Ctrl + shift + P(명령 팔레트) 로 시작
+     - 사용방법 (test31_jupyter.ipynb 참조)
+  - folium
