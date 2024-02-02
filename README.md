@@ -111,12 +111,17 @@ print( 5 == 4 )  # False
 
 
 
-
-
-
   ## 5일차
   - Python 응용
     - Jupyter  Notebook 활용 - 구글 코랩(Colab)
+    - folium 계속
+    - json 입출력
+    - 응용예제 연습
+      - IP주소 확인
+
+
+
+
 
   - 가상환경
   - 객체지향(나중에...)
