@@ -139,7 +139,7 @@ print( 5 == 4 )  # False
 
    ![쓰레드 예제](https://raw.githubusercontent.com/Juhyi/basic-python-2024/main/imges/python_003.gif)
       
-   ``````python
+   ```python
     # 쓰레드 클래스에서 시그널 선언
     class BackWorker(QThread): # PyQt에서 스레드 클래스 상속
         initSignal = pyqtSignal(int) # 시그널을 UI스레드로 전달하기위한 변수객체
@@ -158,7 +158,13 @@ print( 5 == 4 )  # False
             th.start() # BackWorker 내의 self.run() 실행
             th.initSignal.connect(self.initPgbTask) # 스레드에서 초기화 시그널이 오면 initPgbTask 슬롯함수가 대신 처리
             # ...    
-    ```
+        # Thread 에서 시그널이 넘어오면 UI 처리를 대신해주는 부분 슬롯함수
+        @pyqtSlot(int)      #BackWorker 스레드에서 self.initSignal.emit() 동작해서 실행
+        def initPgbTask(self, maxVal):
+            self.pgbTask.setValue(0)
+            self.pgbTask.setRange(0, maxVal - 1)
+        
+   
    ```
 
 
