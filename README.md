@@ -175,7 +175,9 @@ print( 5 == 4 )  # False
         - 이미지 뷰어
         - 이미지 에디터
       
-      ![PyQt 예제](https://raw.githubusercontent.com/Juhyi/basic-python-2024/main/imges/python_004.png)
+    ![PyQt 예제](https://raw.githubusercontent.com/Juhyi/basic-python-2024/main/imges/python_004.png)
+   ![PyQt 예제](https://raw.githubusercontent.com/Juhyi/basic-python-2024/main/imges/python_004.png)
+
 
 
     
