@@ -133,9 +133,7 @@ print( 5 == 4 )  # False
    - PyQt5 기본실행
    - QtDesign 사용법
    - ★★★쓰레드 학습 : UI쓰레드와 Background쓰레드 분리
-        
-        
-        -  GIL, 병렬 프로세싱 더 학습할 것
+        - [ '] GIL, 병렬 프로세싱 더 학습할 것
 
    ![쓰레드 예제](https://raw.githubusercontent.com/Juhyi/basic-python-2024/main/imges/python_003.gif)
       
@@ -175,7 +173,7 @@ print( 5 == 4 )  # False
         - 이미지 뷰어
         - 이미지 에디터
       
-    ![PyQt 예제](https://raw.githubusercontent.com/Juhyi/basic-python-2024/main/imges/python_004.png)
+    
    ![PyQt 예제](https://raw.githubusercontent.com/Juhyi/basic-python-2024/main/imges/python_004.png)
 
 
