@@ -111,14 +111,14 @@ print( 5 == 4 )  # False
 
 
 
-  ## 5일차
-  - Python 응용
-    - Jupyter  Notebook 활용 - 구글 코랩(Colab)
-    - folium 계속
-    - json 입출력
-    - 응용예제 연습
-      - IP주소 확인
-      - QRCODE 만들기
+## 5일차
+- Python 응용
+  - Jupyter  Notebook 활용 - 구글 코랩(Colab)
+  - folium 계속
+  - json 입출력
+  - 응용예제 연습
+    - IP주소 확인
+       QRCODE 만들기
 
  ## 6일차
  - Python 라이브러리 경로 : C:\DEV\Langs\Python311\Lib\site-packages
@@ -163,15 +163,32 @@ print( 5 == 4 )  # False
         def initPgbTask(self, maxVal):
             self.pgbTask.setValue(0)
             self.pgbTask.setRange(0, maxVal - 1)
-        
-   
    ```
+    ## 7일차
+    - 파이썬 응용
+      - 객체지향(클래스) 정리
+        - 상속, 오버라이딩(재정의), 오버로딩(같은이름의 함수를 마음대로 골라쓰자)
+      - 가상환경 Virtualenv
+        - 다른버전 파이썬도 설치해야 사용 가능
+        - 현재 3.11에서 3.9 가상환경 만들려면 3.9 파이썬 설치필요
+      - PyQt5와 응용예제 연습
+        - 이미지 뷰어
+        - 이미지 에디터
+      
+      ![PyQt 예제](https://raw.githubusercontent.com/Juhyi/basic-python-2024/main/imges/python_004.png)
+
+
+    
+    
+    ## 8일차
+    - 파이썬 응용
+      - PyQt 응용예제 계속
+    - 파이썬 기본 코딩테스트
 
 
    
-   - 객체지향(나중에...)
+   
 
   
-    - 오버로딩, 오버라이딩(재정의)
-    - 상속, 다중상속
-    - 추상클래스, 인터페이스...
+  
+   
