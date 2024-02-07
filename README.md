@@ -184,6 +184,7 @@ print( 5 == 4 )  # False
     - 파이썬 응용
       - PyQt 응용예제 계속
     - 파이썬 기본 코딩테스트
+      - Jupyter Notebook 활용
 
 
    
